@@ -4,16 +4,7 @@
   
 
   
-  gsap.from(".masthead-avatar", {
-    scrollTrigger: {
-      trigger: ".portfolio1",
-      toggleActions: "play none none restart"
-    },
-    duration: 1, 
-    opacity:0, 
-    y:-100, 
-    
-  });
+  
 
  
 
