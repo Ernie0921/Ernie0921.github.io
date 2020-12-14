@@ -6066,7 +6066,8 @@ a.close.disabled {
 
 .bg-primary {
   padding-bottom: 6rem;
-  background-image: url(/assets/img/portfolio-background.jpg);
+  /*background-image: url(/assets/img/portfolio-background.jpg);*/
+  background-image: url('https://wallup.net/wp-content/uploads/2016/07/19/13968-minimalism-code.jpg');
   height: 100%;
   background-attachment: fixed;
   background-size: cover;
@@ -10114,7 +10115,7 @@ h3 {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
   
-  background-image: url(/assets/img/portfolio-background.jpg);
+  /*background-image: url(/assets/img/portfolio-background.jpg);*/
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -10123,7 +10124,7 @@ h3 {
 }
 @media only screen and (max-device-width: 1366){
   .masthead{
-    background-attachment: scroll;
+    background-attachment: s;
   }
 }
 .masthead .masthead-heading {
