@@ -2,10 +2,99 @@
     * Start Bootstrap - Freelancer v6.0.5 (https://startbootstrap.com/theme/freelancer)
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-    */
+   */ 
+  gsap.registerPlugin(ScrollTrigger);
+
   
-  gsap.from('.masthead-avatar', {duration: 2, opacity:0, y:-100, ease: 'bounce'})
-  gsap.to('.masthead-heading' , {rotation:360})
+
+  
+  gsap.from(".masthead-avatar", {
+    scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "play none none restart"
+    },
+    duration: 1, 
+    opacity:0, 
+    y:-100, 
+    ease: 'bounce'
+  });
+
+  gsap.from('.masthead-heading' , {
+      scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "play none none restart"
+    },
+    y: 100,
+    ease: 'slow'
+  })
+
+  gsap.from(".portfolio1", {
+    scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "restart none none none"
+    },
+    duration: 1,
+    y: -200,
+    opacity:0,
+    ease: "circ"
+  })
+
+  gsap.from(".portfolio2", {
+    scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "restart none none none"
+    },
+    duration: 1,
+    y: -200,
+    opacity:0,
+    ease:"circ"
+  })
+
+  gsap.from(".portfolio3", {
+    scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "restart none none none"
+    },
+    duration: 1,
+    y: -200,
+    opacity:0,
+    ease: "circ"
+  })
+
+  gsap.from(".portfolio4", {
+    scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "restart none none none"
+    },
+    duration: 1,
+    y: -200,
+    opacity:0,
+    ease: "circ"
+  })
+
+  gsap.from(".portfolio5", {
+    scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "restart none none none"
+    },
+    duration: 1,
+    y: -200,
+    opacity:0,
+    ease: "circ"
+  })
+
+  gsap.from(".portfolio6", {
+    scrollTrigger: {
+      trigger: ".portfolio1",
+      toggleActions: "restart none none none"
+    },
+    duration: 1,
+    y: -200,
+    opacity:0,
+    ease: "circ"
+  })
+
+
     (function($) {
     "use strict"; // Start of use strict
   
