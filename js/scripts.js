@@ -17,10 +17,11 @@
 
   gsap.from('.masthead-heading' , {
       scrollTrigger: {
-      trigger: ".portfolio1",
+      trigger: ".portfolio1 masthead-heading",
       toggleActions: "play none none restart"
     },
-    y: 100,
+    duration:2,
+    y: -100,
     ease: 'slow'
   })
 
