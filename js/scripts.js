@@ -28,12 +28,36 @@
     ease: 'slow'
   })
 
+  gsap.from(".icons-row1", {
+    scrollTrigger: {
+      trigger: ".icons-row1",
+      toggleActions: "play none restart none"
+    },
+    duration:1, opacity:0, y: "random(-400, 400)"
+  })
+
+  gsap.from(".icons-row2", {
+    scrollTrigger: {
+      trigger: ".icons-row2",
+      toggleActions: "play none restart none"
+    },
+    duration:1, opacity:0, x: "random(-400, 400)"
+  })
+
+  gsap.from(".icons-row3", {
+    scrollTrigger: {
+      trigger: ".icons-row3",
+      toggleActions: "play none restart none"
+    },
+    duration:1, opacity:0, y: "random(-400, 400)"
+  })
+
   gsap.from(".portfolio1", {
     scrollTrigger: {
       trigger: ".portfolio1",
       toggleActions: "restart none none none"
     },
-    duration: 1,
+    duration: 2,
     y: -200,
     opacity:0,
     ease: "circ"
@@ -44,7 +68,7 @@
       trigger: ".portfolio1",
       toggleActions: "restart none none none"
     },
-    duration: 1,
+    duration: 2,
     y: -200,
     opacity:0,
     ease:"circ"
@@ -55,7 +79,7 @@
       trigger: ".portfolio1",
       toggleActions: "restart none none none"
     },
-    duration: 1,
+    duration: 2,
     y: -200,
     opacity:0,
     ease: "circ"
@@ -66,7 +90,7 @@
       trigger: ".portfolio1",
       toggleActions: "restart none none none"
     },
-    duration: 1,
+    duration: 2,
     y: -200,
     opacity:0,
     ease: "circ"
@@ -77,7 +101,7 @@
       trigger: ".portfolio1",
       toggleActions: "restart none none none"
     },
-    duration: 1,
+    duration: 2,
     y: -200,
     opacity:0,
     ease: "circ"
@@ -88,7 +112,7 @@
       trigger: ".portfolio1",
       toggleActions: "restart none none none"
     },
-    duration: 1,
+    duration: 2,
     y: -200,
     opacity:0,
     ease: "circ"
