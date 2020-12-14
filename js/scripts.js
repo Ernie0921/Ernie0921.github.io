@@ -1,8 +1,4 @@
-/*!
-    * Start Bootstrap - Freelancer v6.0.5 (https://startbootstrap.com/theme/freelancer)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-   */ 
+
   gsap.registerPlugin(ScrollTrigger);
 
   
@@ -16,7 +12,7 @@
     duration: 1, 
     opacity:0, 
     y:-100, 
-    ease: 'bounce'
+    
   });
 
   gsap.from('.masthead-heading' , {
@@ -58,7 +54,7 @@
       toggleActions: "restart none none none"
     },
     duration: 2,
-    y: -200,
+    x: -200,
     opacity:0,
     ease: "circ"
   })
@@ -69,7 +65,7 @@
       toggleActions: "restart none none none"
     },
     duration: 2,
-    y: -200,
+    x: -200,
     opacity:0,
     ease:"circ"
   })
@@ -80,7 +76,7 @@
       toggleActions: "restart none none none"
     },
     duration: 2,
-    y: -200,
+    x: -200,
     opacity:0,
     ease: "circ"
   })
@@ -91,7 +87,7 @@
       toggleActions: "restart none none none"
     },
     duration: 2,
-    y: -200,
+    x: -200,
     opacity:0,
     ease: "circ"
   })
@@ -102,7 +98,7 @@
       toggleActions: "restart none none none"
     },
     duration: 2,
-    y: -200,
+    x: -200,
     opacity:0,
     ease: "circ"
   })
@@ -113,7 +109,7 @@
       toggleActions: "restart none none none"
     },
     duration: 2,
-    y: -200,
+    x: -200,
     opacity:0,
     ease: "circ"
   })
