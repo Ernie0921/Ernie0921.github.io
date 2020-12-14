@@ -15,15 +15,7 @@
     
   });
 
-  gsap.from('.masthead-heading' , {
-      scrollTrigger: {
-      trigger: ".portfolio1 masthead-heading",
-      toggleActions: "play none none restart"
-    },
-    duration:2,
-    y: -100,
-    ease: 'slow'
-  })
+ 
 
   gsap.from(".icons-row1", {
     scrollTrigger: {
